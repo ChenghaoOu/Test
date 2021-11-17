@@ -6,7 +6,7 @@ request = requests.session()
 for project_name in project_list:
     if project_name == "badger":
         url = "https://tokenpad-api.dev.57blocks.com/defi/portfolio?projectId=badger&userAddr=0x60758B3A6933192D0Ac28Fc1f675364bb4dFAb1d&chain=Ethereum"
-        tag = ['deposit', 'yield']
+        tag = ['deposit', 'yiel']
         try:
             response = request.get(url)
             assert response.status_code == 200,"badger接口异常"
