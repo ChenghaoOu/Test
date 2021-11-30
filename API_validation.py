@@ -1,5 +1,9 @@
+import sys
+import os
+sys.path.append(r"E:\Project\Test\venv\Lib\site-packages")
 import requests
 from jsonpath import jsonpath
+
 
 project_list = ["badger","uniswap","sushiswap","aaveV1","aaveV2","compound","yearn","curve","vesper","synthetix","origin","pancakeSwap","qucikswap"]
 request = requests.session()
